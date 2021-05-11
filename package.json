@@ -1,0 +1,22 @@
+{
+  "name": "@marceloleite2604/eslint-config",
+  "version": "1.0.1",
+  "description": "ESLint configuration files",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloLeite2604/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "configuration"
+  ],
+  "author": "MarceloLeite2604",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceloLeite2604/eslint-config/issues"
+  },
+  "homepage": "https://github.com/MarceloLeite2604/eslint-config#readme"
+}
