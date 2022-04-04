@@ -7,10 +7,7 @@ module.exports = {
   globals: {
     JSX: 'readonly'
   },
-  extends: [
-    'plugin:react/recommended',
-    'standard'
-  ],
+  extends: ['plugin:react/recommended', 'standard'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -19,10 +16,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module'
   },
-  plugins: [
-    'react',
-    '@typescript-eslint'
-  ],
+  plugins: ['react', '@typescript-eslint', 'import-newlines'],
   settings: {
     react: {
       version: 'detect'
@@ -43,6 +37,13 @@ module.exports = {
     '@typescript-eslint/indent': ['error', 2],
     'no-trailing-spaces': ['error', { skipBlankLines: true }],
     'react/prop-types': 'off',
-    'no-debugger': 'off'
+    'no-debugger': 'off',
+    'import-newlines/enforce': [
+      'error',
+      {
+        items: 2,
+        semi: false
+      }
+    ]
   }
 };
