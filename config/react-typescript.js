@@ -44,6 +44,13 @@ module.exports = {
         items: 2,
         semi: false
       }
-    ]
+    ],
+    'react/jsx-max-props-per-line': [
+      1, {
+        maximum: {
+          single: 2,
+          multi: 1
+        }
+      }]
   }
 };
